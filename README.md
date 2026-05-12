@@ -32,9 +32,6 @@
 OVERVIEW
 ═══════════════════════════════════════════════════════
 ```
-
-## Overview
-
 This project delivers hands-on experience in cloud security monitoring and log analysis using Google Cloud Platform's native logging infrastructure. By leveraging the Logs Explorer interface and structured log queries, the project simulates real-world SOC workflows — ingesting, filtering, and investigating cloud-generated events across compute resources and application services.
 
 The work demonstrates how security teams gain visibility into cloud activity, prioritize critical incidents using severity-based filtering, and extract actionable intelligence from raw log data.
@@ -48,9 +45,6 @@ The work demonstrates how security teams gain visibility into cloud activity, pr
 OBJECTIVES
 ═══════════════════════════════════════════════════════
 ```
-
-## Objectives
-
 - Analyze cloud-generated logs using Google Cloud Logging and Logs Explorer
 - Filter log data by resource type to isolate Compute Engine (VM) activity
 - Apply severity-based filtering to prioritize high-impact security events
@@ -67,9 +61,6 @@ OBJECTIVES
 TOOLS & TECHNOLOGIES
 ═══════════════════════════════════════════════════════
 ```
-
-## Tools & Technologies
-
 ![GCP](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Cloud Logging](https://img.shields.io/badge/Cloud_Logging-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Logs Explorer](https://img.shields.io/badge/Logs_Explorer-34A853?style=flat&logo=googlecloud&logoColor=white)
@@ -84,9 +75,6 @@ TOOLS & TECHNOLOGIES
 PROJECT STRUCTURE
 ═══════════════════════════════════════════════════════
 ```
-
-## Project Structure
-
 ```
 Cloud-Logging-Security-Monitoring/
 │── README.md
@@ -112,9 +100,6 @@ Cloud-Logging-Security-Monitoring/
 METHODOLOGY
 ═══════════════════════════════════════════════════════
 ```
-
-## Methodology
-
 &nbsp;
 
 ### Step 1 — Cloud Logging Environment Access
@@ -160,9 +145,6 @@ Structured log queries in Logs Explorer were constructed to filter across resour
 RESULTS & SCREENSHOTS
 ═══════════════════════════════════════════════════════
 ```
-
-## Results & Screenshots
-
 &nbsp;
 
 ### Logs Explorer Interface
@@ -250,9 +232,6 @@ One-hour activity summary chart showing Client (4XX) errors against Total reques
 QUERIES & FILTERS USED
 ═══════════════════════════════════════════════════════
 ```
-
-## Queries & Filters Used
-
 **Filter by GAE Application resource and default module:**
 ```lql
 resource.type="gae_app"
@@ -299,9 +278,6 @@ protoPayload.status=200 OR httpRequest.status=200
 DOCUMENTATION
 ═══════════════════════════════════════════════════════
 ```
-
-## Documentation
-
 [Download Full Report](Report/Configuring_Cloud_Logging___Security_Monitoring.pdf)
 
 &nbsp;
@@ -313,9 +289,6 @@ DOCUMENTATION
 KEY OBSERVATIONS
 ═══════════════════════════════════════════════════════
 ```
-
-## Key Observations
-
 - **Centralized visibility** — Cloud Logging aggregates events across all GCP services into a single queryable interface without requiring custom instrumentation
 - **Resource isolation** — VM-level filtering enables precise investigation of specific infrastructure components, reducing irrelevant log volume
 - **Severity triage** — Structured severity levels allow security teams to surface actionable events rapidly without parsing raw log streams
@@ -331,9 +304,6 @@ KEY OBSERVATIONS
 CONCLUSION
 ═══════════════════════════════════════════════════════
 ```
-
-## Conclusion
-
 This project successfully demonstrated end-to-end cloud security log analysis using Google Cloud Logging and Logs Explorer. Through resource-level and severity-based filtering combined with structured LQL queries, security-relevant events were isolated from high-volume log streams and investigated in a manner consistent with SOC analyst workflows.
 
 The experience reinforced the operational importance of centralized logging in cloud environments — where rapid visibility, noise reduction, and evidence preservation are essential to effective security monitoring and incident response.
