@@ -1,18 +1,19 @@
 
 ```
- ██████╗██╗      ██████╗ ██╗   ██╗██████╗
-██╔════╝██║     ██╔═══██╗██║   ██║██╔══██╗
-██║     ██║     ██║   ██║██║   ██║██║  ██║
-██║     ██║     ██║   ██║██║   ██║██║  ██║
-╚██████╗███████╗╚██████╔╝╚██████╔╝██████╔╝
- ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝
 
-██╗      ██████╗  ██████╗  ██████╗ ██╗███╗   ██╗ ██████╗
-██║     ██╔═══██╗██╔════╝ ██╔════╝ ██║████╗  ██║██╔════╝
-██║     ██║   ██║██║  ███╗██║  ███╗██║██╔██╗ ██║██║  ███╗
-██║     ██║   ██║██║   ██║██║   ██║██║██║╚██╗██║██║   ██║
-███████╗╚██████╔╝╚██████╔╝╚██████╔╝██║██║ ╚████║╚██████╔╝
-╚══════╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+░█████╗░██╗░░░░░░█████╗░██╗░░░██╗██████╗░  
+██╔══██╗██║░░░░░██╔══██╗██║░░░██║██╔══██╗  
+██║░░╚═╝██║░░░░░██║░░██║██║░░░██║██║░░██║  
+██║░░██╗██║░░░░░██║░░██║██║░░░██║██║░░██║  
+╚█████╔╝███████╗╚█████╔╝╚██████╔╝██████╔╝  
+░╚════╝░╚══════╝░╚════╝░░╚═════╝░╚═════╝░  
+
+██╗░░░░░░█████╗░░██████╗░░██████╗░██╗███╗░░██╗░██████╗░░░░
+██║░░░░░██╔══██╗██╔════╝░██╔════╝░██║████╗░██║██╔════╝░░░░
+██║░░░░░██║░░██║██║░░██╗░██║░░██╗░██║██╔██╗██║██║░░██╗░░░░
+██║░░░░░██║░░██║██║░░╚██╗██║░░╚██╗██║██║╚████║██║░░╚██╗░░░
+███████╗╚█████╔╝╚██████╔╝╚██████╔╝██║██║░╚███║╚██████╔╝██╗
+╚══════╝░╚════╝░░╚═════╝░░╚═════╝░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝
 ```
 
 <div align="center">
@@ -29,7 +30,7 @@
 
 ```
 ═══════════════════════════════════════════════════════
-OVERVIEW
+𝙊𝙑𝙀𝙍𝙑𝙄𝙀𝙒
 ═══════════════════════════════════════════════════════
 ```
 This project delivers hands-on experience in cloud security monitoring and log analysis using Google Cloud Platform's native logging infrastructure. By leveraging the Logs Explorer interface and structured log queries, the project simulates real-world SOC workflows — ingesting, filtering, and investigating cloud-generated events across compute resources and application services.
@@ -42,7 +43,7 @@ The work demonstrates how security teams gain visibility into cloud activity, pr
 
 ```
 ═══════════════════════════════════════════════════════
-OBJECTIVES
+𝙊𝘽𝙅𝙀𝘾𝙏𝙄𝙑𝙀𝙎
 ═══════════════════════════════════════════════════════
 ```
 - Analyze cloud-generated logs using Google Cloud Logging and Logs Explorer
@@ -58,7 +59,7 @@ OBJECTIVES
 
 ```
 ═══════════════════════════════════════════════════════
-TOOLS & TECHNOLOGIES
+𝙏𝙊𝙊𝙇𝙎 & 𝙏𝙀𝘾𝙃𝙉𝙊𝙇𝙊𝙂𝙄𝙀𝙎
 ═══════════════════════════════════════════════════════
 ```
 ![GCP](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=flat&logo=googlecloud&logoColor=white)
@@ -72,7 +73,7 @@ TOOLS & TECHNOLOGIES
 
 ```
 ═══════════════════════════════════════════════════════
-PROJECT STRUCTURE
+𝙋𝙍𝙊𝙅𝙀𝘾𝙏 𝙎𝙏𝙍𝙐𝘾𝙏𝙐𝙍𝙀
 ═══════════════════════════════════════════════════════
 ```
 ```
@@ -97,7 +98,7 @@ Cloud-Logging-Security-Monitoring/
 
 ```
 ═══════════════════════════════════════════════════════
-METHODOLOGY
+𝙈𝙀𝙏𝙃𝙊𝘿𝙊𝙇𝙊𝙂𝙔
 ═══════════════════════════════════════════════════════
 ```
 &nbsp;
@@ -142,7 +143,7 @@ Structured log queries in Logs Explorer were constructed to filter across resour
 
 ```
 ═══════════════════════════════════════════════════════
-RESULTS & SCREENSHOTS
+𝙍𝙀𝙎𝙐𝙇𝙏𝙎 & 𝙎𝘾𝙍𝙀𝙀𝙉𝙎𝙃𝙊𝙏𝙎
 ═══════════════════════════════════════════════════════
 ```
 &nbsp;
@@ -229,7 +230,7 @@ One-hour activity summary chart showing Client (4XX) errors against Total reques
 
 ```
 ═══════════════════════════════════════════════════════
-QUERIES & FILTERS USED
+𝙌𝙐𝙀𝙍𝙄𝙀𝙎 & 𝙁𝙄𝙇𝙏𝙀𝙍𝙎 𝙐𝙎𝙀𝘿
 ═══════════════════════════════════════════════════════
 ```
 **Filter by GAE Application resource and default module:**
@@ -275,7 +276,7 @@ protoPayload.status=200 OR httpRequest.status=200
 
 ```
 ═══════════════════════════════════════════════════════
-DOCUMENTATION
+𝘿𝙊𝘾𝙐𝙈𝙀𝙉𝙏𝘼𝙏𝙄𝙊𝙉
 ═══════════════════════════════════════════════════════
 ```
 [Download Full Report](Report/Configuring_Cloud_Logging___Security_Monitoring.pdf)
@@ -286,7 +287,7 @@ DOCUMENTATION
 
 ```
 ═══════════════════════════════════════════════════════
-KEY OBSERVATIONS
+𝙆𝙀𝙔 𝙊𝘽𝙎𝙀𝙍𝙑𝘼𝙏𝙄𝙊𝙉𝙎
 ═══════════════════════════════════════════════════════
 ```
 - **Centralized visibility** — Cloud Logging aggregates events across all GCP services into a single queryable interface without requiring custom instrumentation
@@ -301,7 +302,7 @@ KEY OBSERVATIONS
 
 ```
 ═══════════════════════════════════════════════════════
-CONCLUSION
+𝘾𝙊𝙉𝘾𝙇𝙐𝙎𝙄𝙊𝙉
 ═══════════════════════════════════════════════════════
 ```
 This project successfully demonstrated end-to-end cloud security log analysis using Google Cloud Logging and Logs Explorer. Through resource-level and severity-based filtering combined with structured LQL queries, security-relevant events were isolated from high-volume log streams and investigated in a manner consistent with SOC analyst workflows.
